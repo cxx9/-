@@ -1,4 +1,5 @@
-function randomizeText(par)
+ss = {}
+function ss.randomizeText(par)
   local phrases = 
     {
       'apeirophobia aaa so scary',
