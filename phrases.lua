@@ -1,6 +1,6 @@
 print('>> Randomizer Load 1')
 ss = {}
-function ss:randomizeText(par)
+function ss.randomizeText(par)
   local phrases = 
     {
       'apeirophobia aaa so scary',
@@ -102,3 +102,5 @@ function ss:randomizeText(par)
   end
 end
 print('>> Randomizer Load 2')
+print('>> Randomizer Load 3')
+return ss
