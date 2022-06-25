@@ -1,6 +1,5 @@
-print('>> Randomizer Load 1')
-ss = {}
-function ss.randomizeText(par)
+SnowbankScripts = {}
+function SnowbankScripts.randomizeText(par)
   local phrases = 
     {
       'apeirophobia aaa so scary',
@@ -101,6 +100,5 @@ function ss.randomizeText(par)
     par.Text = phrases[math.random(1, #phrases)] end
   end
 end
-print('>> Randomizer Load 2')
-print('>> Randomizer Load 3')
-return ss
+print('>> Randomizer Load')
+return SnowbankScripts
