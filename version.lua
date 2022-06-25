@@ -1,2 +1,3 @@
-version = 'v1.3.2'
-return version
+ss = {}
+ss.version = 'v1.3.2'
+return ss
