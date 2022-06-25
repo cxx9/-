@@ -1,3 +1,4 @@
+print('>> Randomizer Load 1')
 ss = {}
 function ss.randomizeText(par)
   local phrases = 
@@ -100,3 +101,4 @@ function ss.randomizeText(par)
     par.Text = phrases[math.random(1, #phrases)] end
   end
 end
+print('>> Randomizer Load 2')
